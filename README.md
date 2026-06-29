@@ -1,67 +1,83 @@
 # 🚀 Enterprise CRM System
 
-A full-stack **Enterprise Customer Relationship Management (CRM)** application built using the **MERN Stack**. The system helps organizations manage leads, customers, sales activities, and users through a secure role-based platform.
+A full-stack **Enterprise Customer Relationship Management (CRM)** application built using the **MERN Stack**. This system enables organizations to efficiently manage leads, monitor sales pipelines, maintain activity logs, send emails, and control user access through secure role-based authentication.
 
 ---
 
-# 📌 Features
+## 📖 Overview
+
+The Enterprise CRM System is designed to simplify customer relationship management by providing a centralized platform for sales teams and administrators. It includes lead tracking, dashboard analytics, email management, activity monitoring, and user administration.
+
+---
+
+# ✨ Features
 
 * 🔐 JWT Authentication
-* 👥 Role-Based Access Control (Admin & Sales)
-* 📋 Lead Management (Create, Read, Update, Delete)
+* 👤 Role-Based Access Control (Admin & Sales)
+* 📋 Lead Management (Create, Update, Delete)
 * 🔍 Search & Filter Leads
 * 📊 Sales Dashboard
-* 📈 Lead Statistics & Conversion Rate
-* 📜 Activity Logs
+* 📈 Lead Statistics
+* 📝 Activity Logs
 * 📧 Email Logs
 * ✉️ Compose Email
-* 👤 User Management
+* 👥 User Management
 * ☁️ MongoDB Atlas Integration
-* 📱 Responsive UI
+* 📱 Responsive User Interface
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
-## Frontend
+### Frontend
 
 * React.js
 * React Router DOM
 * Axios
 * CSS3
 
-## Backend
+### Backend
 
 * Node.js
 * Express.js
 
-## Database
+### Database
 
 * MongoDB Atlas
 * Mongoose
 
-## Authentication
+### Authentication
 
 * JSON Web Token (JWT)
 * bcrypt.js
 
 ---
 
-# 📂 Folder Structure
+# 📂 Project Structure
 
 ```text
 enterprise-crm/
 │
 ├── backend/
+│
 ├── frontend/
+│
 ├── Screenshots/
+│
 ├── README.md
+│
 └── .gitignore
 ```
 
 ---
 
-# 📸 Screenshots
+# 📸 Project Screenshots
+
+## Login
+
+![Login](https://github.com/harmeet-28/enterprise-crm/blob/main/enterprise-crm/Screenshots/Login.png?raw=true)
+
+---
 
 ## Dashboard
 
@@ -71,7 +87,7 @@ enterprise-crm/
 
 ## Lead Management
 
-![Lead Management](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/Leads.png)
+![Leads](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/Leads.png)
 
 ---
 
@@ -93,18 +109,27 @@ enterprise-crm/
 
 ---
 
+## Email Logs
+
+![Email Logs](https://github.com/harmeet-28/enterprise-crm/blob/main/enterprise-crm/Screenshots/Emaillogs.png?raw=true)
+
+---
+
 ## Compose Email
 
 ![Compose Email](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/ComposeEmail.png)
 
+---
 
-# ⚙️ Installation
+# 🚀 Installation
 
 ## Clone the Repository
 
 ```bash
 git clone https://github.com/harmeet-28/enterprise-crm.git
 ```
+
+---
 
 ## Backend Setup
 
@@ -113,6 +138,8 @@ cd enterprise-crm/backend
 npm install
 npm start
 ```
+
+---
 
 ## Frontend Setup
 
@@ -128,22 +155,22 @@ npm run dev
 
 ## Admin
 
-* Manage Leads
-* Manage Users
-* View Dashboard
-* View Activity Logs
-* View Email Logs
+* Dashboard Access
+* Lead Management
+* User Management
+* Activity Logs
+* Email Logs
 * Compose Emails
 
 ## Sales
 
-* Manage Leads
-* View Dashboard
+* Dashboard Access
+* Lead Management
 * Compose Emails
 
 ---
 
-# 📊 Dashboard Features
+# 📊 Dashboard Modules
 
 * Total Leads
 * Qualified Leads
@@ -155,14 +182,15 @@ npm run dev
 
 ---
 
-# 🚀 Future Improvements
+# 🔮 Future Improvements
 
-* Export Reports (PDF/Excel)
+* Export Reports (PDF / Excel)
 * Calendar Integration
 * Notifications
-* File Attachments
+* Lead Follow-up Reminders
 * Advanced Analytics
 * Dark / Light Theme
+* Live Email Integration
 
 ---
 
@@ -170,10 +198,12 @@ npm run dev
 
 **Harmeet Singh**
 
-GitHub: https://github.com/harmeet-28
+* GitHub: https://github.com/harmeet-28
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub!
+If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
+
+Thank you for visiting this repository!
