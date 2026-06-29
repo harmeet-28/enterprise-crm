@@ -74,14 +74,62 @@ enterprise-crm/
 
 ---
 
+# 📸 Screenshots
 
+## Login
+
+![Login](screenshots/login.png)
+
+---
+
+## Dashboard
+
+![Dashboard](screenshots/Dashboard.png)
+
+---
+
+## Lead Management
+
+![Lead Management](screenshots/Leads.png)
+
+---
+
+## Add Lead
+
+![Add Lead](screenshots/AddLeads.png)
+
+---
+
+## User Management
+
+![Users](screenshots/Users.png)
+
+---
+
+## Activity Logs
+
+![Activities](screenshots/Activities.png)
+
+---
+
+## Email Logs
+
+![Email Logs](screenshots/EmailLogs.png)
+
+---
+
+## Compose Email
+
+![Compose Email](screenshots/ComposeEmail.png)
+
+---
 
 # ⚙️ Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/harmeet-28/enterprise-crm.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/enterprise-crm.git
 ```
 
 ### Backend Setup
