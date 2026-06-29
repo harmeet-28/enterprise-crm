@@ -63,12 +63,6 @@ enterprise-crm/
 
 # 📸 Screenshots
 
-## Login
-
-![Login](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/login.png)
-
----
-
 ## Dashboard
 
 ![Dashboard](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/Dashboard.png)
@@ -99,17 +93,10 @@ enterprise-crm/
 
 ---
 
-## Email Logs
-
-![Email Logs](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/EmailLogs.png)
-
----
-
 ## Compose Email
 
 ![Compose Email](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/ComposeEmail.png)
 
----
 
 # ⚙️ Installation
 
