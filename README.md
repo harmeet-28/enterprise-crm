@@ -1,146 +1,181 @@
 # 🚀 Enterprise CRM System
 
-A full-stack **Enterprise Customer Relationship Management (CRM)** application built using the **MERN Stack**. The system helps organizations manage leads, customers, sales activities, users, and email communication through a secure role-based platform.
+A full-stack **Enterprise Customer Relationship Management (CRM)** application built using the **MERN Stack**. The system helps organizations manage leads, customers, sales activities, and users through a secure role-based platform.
 
 ---
 
-## 📌 Features
+# 📌 Features
 
 * 🔐 JWT Authentication
 * 👥 Role-Based Access Control (Admin & Sales)
 * 📋 Lead Management (Create, Read, Update, Delete)
 * 🔍 Search & Filter Leads
-* 📊 Dashboard with Lead Statistics
+* 📊 Sales Dashboard
+* 📈 Lead Statistics & Conversion Rate
 * 📜 Activity Logs
 * 📧 Email Logs
 * ✉️ Compose Email
 * 👤 User Management
 * ☁️ MongoDB Atlas Integration
-* 📱 Responsive User Interface
+* 📱 Responsive UI
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
+## Frontend
 
 * React.js
 * React Router DOM
 * Axios
-* CSS
+* CSS3
 
-### Backend
+## Backend
 
 * Node.js
 * Express.js
 
-### Database
+## Database
 
 * MongoDB Atlas
 * Mongoose
 
-### Authentication
+## Authentication
 
 * JSON Web Token (JWT)
 * bcrypt.js
 
 ---
 
-# 📂 Project Structure
+# 📂 Folder Structure
 
 ```text
 enterprise-crm/
 │
 ├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── .env
-│   ├── package.json
-│   └── server.js
-│
 ├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.js
-│
-├── screenshots/
+├── Screenshots/
 ├── README.md
-└── package.json
+└── .gitignore
 ```
 
 ---
 
+# 📸 Screenshots
 
+## Login
+
+![Login](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/login.png)
+
+---
+
+## Dashboard
+
+![Dashboard](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/Dashboard.png)
+
+---
+
+## Lead Management
+
+![Lead Management](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/Leads.png)
+
+---
+
+## Add Lead
+
+![Add Lead](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/AddLeads.png)
+
+---
+
+## User Management
+
+![Users](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/Users.png)
+
+---
+
+## Activity Logs
+
+![Activities](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/Activities.png)
+
+---
+
+## Email Logs
+
+![Email Logs](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/EmailLogs.png)
+
+---
+
+## Compose Email
+
+![Compose Email](https://raw.githubusercontent.com/harmeet-28/enterprise-crm/main/enterprise-crm/Screenshots/ComposeEmail.png)
+
+---
 
 # ⚙️ Installation
 
-### Clone Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/harmeet-28/enterprise-crm.git
 ```
 
-### Backend Setup
+## Backend Setup
 
 ```bash
-cd backend
+cd enterprise-crm/backend
 npm install
 npm start
 ```
 
-### Frontend Setup
+## Frontend Setup
 
 ```bash
-cd frontend
+cd enterprise-crm/frontend
 npm install
 npm run dev
 ```
 
 ---
 
-# 🔑 User Roles
+# 👨‍💼 User Roles
 
-### Admin
+## Admin
 
 * Manage Leads
 * Manage Users
+* View Dashboard
 * View Activity Logs
 * View Email Logs
 * Compose Emails
-* Dashboard Access
 
-### Sales
+## Sales
 
 * Manage Leads
+* View Dashboard
 * Compose Emails
-* Dashboard Access
 
 ---
 
-# 📈 Dashboard Features
+# 📊 Dashboard Features
 
 * Total Leads
 * Qualified Leads
 * New Leads
 * Won Deals
 * Lost Deals
-* Conversion Statistics
+* Conversion Rate
+* Sales Analytics
 
 ---
 
-# 🔮 Future Enhancements
+# 🚀 Future Improvements
 
-* Notifications
-* Calendar Integration
 * Export Reports (PDF/Excel)
-* Advanced Analytics
-* Customer Profiles
+* Calendar Integration
+* Notifications
 * File Attachments
-* Dark/Light Theme Toggle
+* Advanced Analytics
+* Dark / Light Theme
 
 ---
 
@@ -154,4 +189,4 @@ GitHub: https://github.com/harmeet-28
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project helpful, please consider giving it a ⭐ on GitHub!
